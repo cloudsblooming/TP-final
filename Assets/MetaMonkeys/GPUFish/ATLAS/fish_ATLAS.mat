@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fish_ATLAS
+  m_Shader: {fileID: 4800000, guid: b03f114247f8d194e99d0a7a41ae973b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: a995c1bbe206e6441b1f61d37c9670f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _albedotexture:
+        m_Texture: {fileID: 2800000, guid: 0880a6c6e85884945966036e75fb6af0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _aotexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissiontexture:
+        m_Texture: {fileID: 2800000, guid: 0880a6c6e85884945966036e75fb6af0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _maintexture:
+        m_Texture: {fileID: 2800000, guid: a995c1bbe206e6441b1f61d37c9670f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _metalictexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normaltexture:
+        m_Texture: {fileID: 2800000, guid: e29833a0db2da4d4886b03974b523dac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _smoothnesstexture:
+        m_Texture: {fileID: 2800000, guid: 1801aa4745f75704aa16d24be0759f17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Float0: 0.01
+    - _Float1: 0.36
+    - _Float2: 1.04
+    - _Float3: 0.32
+    - _Float4: -7.23
+    - _Float5: 1.42
+    - _Float6: 0.53
+    - _Float7: 5.2
+    - _InvFade: 1
+    - __dirty: 0
+    - _ambientocclusion: 0
+    - _cullmode: 2
+    - _fresnelpow: 2.36
+    - _hue: 0
+    - _metalic: 0
+    - _normalintensity: 1.01
+    - _saturation: 1
+    - _smoothness: 1
+    - _value: 1.22
+    - _vertexmask: 0.11
+    - _vertexoffsetintensity: 0.32
+    - _vertexwavefrequency: 2.8
+    - _vertexwaveintensity: 0.2
+    - _vertexwavespeed: -15.1
+    - _worldposmultiply: 1.42
+    - _worldposwavemultiply: 3.72
+    m_Colors:
+    - _Color0: {r: 0.1273585, g: 0.22929078, b: 1, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _Vector0: {r: 1, g: 0, b: 0, a: 0}
+    - _Vector1: {r: 1, g: 0, b: 0, a: 0}
+    - _emissioncolor: {r: 1, g: 1, b: 1, a: 1}
+    - _fresnelcol: {r: 0.040583838, g: 0.047750056, b: 0.1509434, a: 0}
+    - _vertexoffsetdir: {r: 1, g: 0, b: 0, a: 0}
+    - _vertexwavedir: {r: 1, g: 0, b: 0, a: 0}
