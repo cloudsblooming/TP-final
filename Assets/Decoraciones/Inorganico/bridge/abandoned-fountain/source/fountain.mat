@@ -579,7 +579,7 @@ Material:
     - _ShadowMaskType: 0
     - _ShadowNormalStrength: 1
     - _ShadowPostAO: 0
-    - _ShadowReceive: 0.146
+    - _ShadowReceive: 1
     - _ShadowStrength: 0.581
     - _ShadowStrengthMaskLOD: 0
     - _ShiftBackfaceUV: 0
