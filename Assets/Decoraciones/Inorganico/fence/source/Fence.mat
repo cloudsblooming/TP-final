@@ -562,29 +562,29 @@ Material:
     - _RimShadowMask: 0.519
     - _RimVRParallaxStrength: 0
     - _Shadow2ndBlur: 0.1
-    - _Shadow2ndBorder: 0.25
-    - _Shadow2ndNormalStrength: 1
+    - _Shadow2ndBorder: 0
+    - _Shadow2ndNormalStrength: 0
     - _Shadow2ndReceive: 1
-    - _Shadow3rdBlur: 0.1
-    - _Shadow3rdBorder: 0.25
-    - _Shadow3rdNormalStrength: 1
-    - _Shadow3rdReceive: 0
-    - _ShadowBlur: 0.1
+    - _Shadow3rdBlur: 0.255
+    - _Shadow3rdBorder: 0.412
+    - _Shadow3rdNormalStrength: 0.73
+    - _Shadow3rdReceive: 0.368
+    - _ShadowBlur: 0.407
     - _ShadowBlurMaskLOD: 0
-    - _ShadowBorder: 0.2
+    - _ShadowBorder: 0.329
     - _ShadowBorderMaskLOD: 0
-    - _ShadowBorderRange: 0
+    - _ShadowBorderRange: 1
     - _ShadowColorType: 0
-    - _ShadowEnvStrength: 0
-    - _ShadowFlatBlur: 1
+    - _ShadowEnvStrength: 1
+    - _ShadowFlatBlur: 1.077
     - _ShadowFlatBorder: 1
-    - _ShadowMainStrength: 0
+    - _ShadowMainStrength: 0.472
     - _ShadowMaskType: 0
-    - _ShadowNormalStrength: 1
-    - _ShadowPostAO: 0
+    - _ShadowNormalStrength: 0.128
+    - _ShadowPostAO: 1
     - _ShadowReceive: 1
-    - _ShadowStrength: 1
-    - _ShadowStrengthMaskLOD: 0
+    - _ShadowStrength: 0.66
+    - _ShadowStrengthMaskLOD: 0.3497078
     - _ShiftBackfaceUV: 0
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
@@ -730,12 +730,12 @@ Material:
     - _RimColor: {r: 0.5, g: 0.46249998, b: 0.42499813, a: 0.287}
     - _RimIndirColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimShadeColor: {r: 0.21902815, g: 0.40397146, b: 0.4339623, a: 1}
-    - _Shadow2ndColor: {r: 0.5499999, g: 0.62, b: 0.75, a: 1}
-    - _Shadow3rdColor: {r: 0, g: 0, b: 0, a: 0}
-    - _ShadowAOShift: {r: 1, g: 0, b: 1, a: 0}
-    - _ShadowAOShift2: {r: 1, g: 0, b: 1, a: 0}
+    - _Shadow2ndColor: {r: 0.6745283, g: 0.7496371, b: 1, a: 0.059}
+    - _Shadow3rdColor: {r: 1, g: 0, b: 0, a: 0.277}
+    - _ShadowAOShift: {r: 0.990099, g: 0.00990099, b: 1, a: -0}
+    - _ShadowAOShift2: {r: 1, g: -0, b: 0, a: 0}
     - _ShadowBorderColor: {r: 1, g: 0, b: 0, a: 1}
-    - _ShadowColor: {r: 0.7, g: 0.75, b: 0.85, a: 1}
+    - _ShadowColor: {r: 0.5267443, g: 0.58195823, b: 0.8396226, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _e2ga0: {r: 1, g: 0, b: 0, a: 0}
     - _e2ga1: {r: 1, g: 0, b: 0, a: 1}
