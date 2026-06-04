@@ -8,15 +8,14 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Grass_LOD1 1
-  m_Shader: {fileID: -6465566751694194690, guid: ad7d0f42bb11b0846ae796e91f4750cd, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 97bd6c6a846f9eb46bb7daa2246edc0c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -40,6 +39,8 @@ Material:
     - _CastShadows: 1
     - _Cull: 0
     - _DstBlend: 0
+    - _Interaction_Radius: 1
+    - _Interaction_Strength: 1
     - _Noise: 2
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -47,13 +48,18 @@ Material:
     - _Surface: 0
     - _WindSpeed: 1
     - _WindStrength: 0.2
+    - _Wind_Speed: 1
+    - _Wind_Strength: 0.5
     - _ZTest: 4
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
     - _BottomColor: {r: 0.12633501, g: 0.15590778, b: 0.16037738, a: 0}
+    - _Bottom_Color: {r: 0.24136703, g: 0.4528302, b: 0.280577, a: 1}
     - _TopColor: {r: 0.16197936, g: 0.5283019, b: 0.34817195, a: 0}
+    - _Top_Color: {r: 0.25485048, g: 0.373903, b: 0.6509434, a: 1}
     - _WindDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _Wind_Direction: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &444876906893359103
 MonoBehaviour:

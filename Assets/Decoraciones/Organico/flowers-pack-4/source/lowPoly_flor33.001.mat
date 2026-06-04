@@ -21,9 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: lowPoly_flor33.001
-  m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
-  m_ValidKeywords:
-  - _WINDQUALITY_NONE
+  m_Shader: {fileID: -6465566751694194690, guid: fb06aaf6acfd94a4d8dbc062865e38ef, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -34,8 +33,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_9b806c5b5da4454b8e8390b8fbb948d4:
+        m_Texture: {fileID: 2800000, guid: d3d6a0d9b3582bd409b3ba884c05c37c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: f54ee808b8f591d4291615afaaa666b5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ccd11811df258844bcc5c1dfc71752b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -63,7 +66,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f54ee808b8f591d4291615afaaa666b5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0ccd11811df258844bcc5c1dfc71752b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -100,6 +103,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Vector1_0a1814af6f5540d9a1bc718cf102a9c3: 0.1
+    - Vector1_30922006abd5464489a1e1a7574463f5: 0.1
+    - Vector1_495c6b17125147738d202b721b4172b8: 10
+    - Vector1_86246c7db2484a429be5110bd88ab146: 0.01
+    - Vector1_b53a439737d344a8bb4fa83e234b833c: 0
+    - Vector1_c44eddffc3834f6e85ed997771cafe6a: 6.11
+    - Vector1_c5b6a79397c04eac9555d2d99176f75b: 1.5
     - _AO: 2.4
     - _AlphaClip: 0
     - _BaseLight: 0.35
@@ -109,7 +119,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
@@ -125,6 +135,7 @@ Material:
     - _Occlusion: 7.5
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
@@ -141,10 +152,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_298811632f8b4d81a0e140497bb30882: {r: 0, g: 0, b: 0, a: 0}
+    - Color_634e1e468b0a4ae6bb40ac2a7fe98f0c: {r: 1, g: 1, b: 1, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _PlayerPosition: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        sueldo=[]
+        plazof=[]
+        alquiler=[]
+        imp=[]
+        gastosv=[]
+        gastose=[]
+        for(i=0; i < 12 ; i++){
+            _sueldo=prompt(`ingrese su sueldo (${i+1}/12):`)
+            _plazof=prompt(`ingrese su plazo fijo (${i+1}/12):`)
+            _alquiler=prompt(`ingrese su alquiler (${i+1}/12):`)
+            _pagoimp=prompt(`ingrese sus pagos de impuestos (${i+1}/12):`)
+            _gastosv=prompt(`ingrese sus gastos variados (${i+1}/12):`)
+            _gastose=prompt(`ingrese su gastos de esparcimiento (${i+1}/12):`)
+
+            sueldo[i]= _sueldo
+            plazof[i]=_plazof
+            alquiler[i]=_alquiler
+            imp[i]=_pagoimp
+            gastosv[i]=_gastosv
+            gastose[i]=_gastose
+        }
+        //listar
+        for(i=0; i<sueldo.length; i++){
+            document.write(`Sueldo: ${sueldo[i]} | PlazoFijo: ${plazof[i]} | Alquiler: ${alquiler[i]} | Impuestos: ${imp[i]} | Gastos Variados: ${gastosv[i]} | Gastos Esparcimiento: ${gastose[i]}  `)
+        }
+        //estadisticas
+        cont=0
+        tIngresos=0
+        tEgresos=0
+        promI=0
+        promE=0
+        eR=0
+        for(i=0; i<sueldo.length; i++){
+            cont++
+            tIngresos+=parseFloat(sueldo[i])+parseFloat(plazof[i])+parseFloat(alquiler[i])
+            tEgresos+=parseFloat(imp[i])+parseFloat(gastosv[i])+parseFloat(gastose[i])
+
+        }
+        promI=tIngresos/cont
+        promE=tEgresos/cont
+        eR= tIngresos-tEgresos
+        document.write(`Total de Ingresos:${tIngresos} | Total de Egresos: ${tEgresos} | Prom.Ingresos: ${promI} | Prom.Egresos: ${promE} | Resultado: ${eR} <br>`)
+    </script>
+</body>
+</html>

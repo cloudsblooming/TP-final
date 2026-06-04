@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //carga
+        nombre = []
+        preciop = []
+        cant = []
+        valorventa = []
+        for (i=0; i < 3 ; i++){
+            _nombre = prompt("ingrese su nombre:")
+            _precioProd = prompt("PrecioProd:") 
+            _cant = prompt("Ingrese cant")
+
+            nombre[i]= _nombre
+            preciop[i] = _precioProd
+            cant[i]= _cant
+
+        }
+        //listar
+        for (i=0; i< nombre.length ; i++)
+        {
+            valorventa = preciop[i] * cant[i]
+            document.write(` ${nombre[i]} ${preciop[i]} ${cant[i]} ${valorventa} <br> ` )
+
+
+
+
+        }
+        //Estadistica 
+        acum=0
+        cont=0
+        prom=0
+
+        for (i=0; i< nombre.length ; i++){
+            cont++
+            valorventa = preciop[i] * cant[i]
+            acum+= valorventa
+
+
+        }
+        prom=acum/cont
+        document.write(` Contador:${cont} | acumulador: ${acum} | prom: ${prom} <br> `)
+
+
+    </script>
+</body>
+</html>

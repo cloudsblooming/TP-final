@@ -8,23 +8,18 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GEM_LP
-  m_Shader: {fileID: 4800000, guid: 9294844b15dca184d914a632279b24e1, type: 3}
+  m_Shader: {fileID: 4800000, guid: 69f861c14129e724096c0955f8079012, type: 3}
   m_ValidKeywords:
-  - EFFECT_HUE_VARIATION
-  - UNITY_UI_CLIP_RECT
   - _EMISSION
-  - _GLOSSYREFLECTIONS_OFF
   - _METALLICGLOSSMAP
   - _NORMALMAP
   - _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
-  - _SPECULARHIGHLIGHTS_OFF
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2460
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -354,7 +349,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _ColorMask: 15
     - _CrystalIOR: 1.485
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.001
     - _DelaunayAngleOffset1: 8
     - _DelaunayAngleOffset2: 2
@@ -368,7 +363,7 @@ Material:
     - _DistanceFadeMode: 0
     - _DistanceFadeRimFresnelPower: 5
     - _DitherMaxValue: 255
-    - _DstBlend: 10
+    - _DstBlend: 1
     - _DstBlendAlpha: 10
     - _DstBlendAlphaFA: 1
     - _DstBlendFA: 1
@@ -394,6 +389,10 @@ Material:
     - _EnvironmentReflections: 1
     - _FlipNormal: 0
     - _GSAAStrength: 0
+    - _GemChromaticAberration: 0
+    - _GemEnvContrast: 2
+    - _GemParticleLoop: 8
+    - _GemVRParallaxStrength: 1
     - _GildSmoothness: 0.127
     - _GlitterAngleRandomize: 0
     - _GlitterApplyShape: 0
@@ -494,7 +493,7 @@ Material:
     - _MatCapCustomNormal: 0
     - _MatCapEnableLighting: 1
     - _MatCapLod: 1.09
-    - _MatCapMainStrength: 0.466
+    - _MatCapMainStrength: 0.802
     - _MatCapNormalStrength: 0.241
     - _MatCapPerspective: 1
     - _MatCapShadowMask: 0
@@ -557,6 +556,8 @@ Material:
     - _ReflectionCubeEnableLighting: 1
     - _ReflectionCubeOverride: 0
     - _ReflectionNormalStrength: 1
+    - _RefractionFresnelPower: 1.26
+    - _RefractionStrength: 0.305
     - _RimApplyTransparency: 1
     - _RimBackfaceMask: 1
     - _RimBlendMode: 1
@@ -626,7 +627,7 @@ Material:
     - _TessFactorMax: 3
     - _TessShrink: 0
     - _TessStrength: 0.5
-    - _TransparentMode: 2
+    - _TransparentMode: 6
     - _UDIMDiscardCompile: 0
     - _UDIMDiscardMode: 0
     - _UDIMDiscardRow0_0: 0
@@ -660,7 +661,7 @@ Material:
     - _UseMain2ndTex: 0
     - _UseMain3rdTex: 0
     - _UseMatCap: 1
-    - _UseMatCap2nd: 1
+    - _UseMatCap2nd: 0
     - _UseOutline: 0
     - _UsePOM: 0
     - _UseParallax: 0
@@ -672,7 +673,7 @@ Material:
     - _WorkflowMode: 1
     - _ZClip: 1
     - _ZTest: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _e2gai: 2
     - _e2gci: 2
     - _egai: 2
@@ -711,6 +712,8 @@ Material:
     - _EmissionBlink: {r: 0, g: 0, b: 3.1415932, a: 0}
     - _EmissionColor: {r: 0, g: 0.33205748, b: 1, a: 1}
     - _EmissionMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _GemEnvColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GemParticleColor: {r: 4, g: 4, b: 4, a: 1}
     - _GildColor: {r: 0.099300385, g: 0.08708616, b: 0.1792453, a: 1}
     - _GlitterAtras: {r: 1, g: 1, b: 0, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}

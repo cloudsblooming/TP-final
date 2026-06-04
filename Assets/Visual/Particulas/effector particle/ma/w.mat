@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: w
+  m_Shader: {fileID: 4800000, guid: e474183c14363414c975fa4a4eb3154c, type: 3}
+  m_ShaderKeywords: CIRCLE_MASK SECONDARY_TEX
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplacementGuide:
+        m_Texture: {fileID: 2800000, guid: 622a38cb71be36b42a237ba710e98f03, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f270eccd425b5ba4cb02b385c05b7599, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: d95f042f7f51c1941862ad1a9c50a156, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Banding: 0
+    - _Bands: 3.18
+    - _BurnSize: 4.75
+    - _CircleMask: 1
+    - _Contrast: 0.55
+    - _Culling: 0
+    - _Cutoff: 0.155
+    - _CutoffSoftness: 0.547
+    - _DisplacementAmount: 0.5
+    - _InnerRadius: -0.164
+    - _IntersectionThresholdMax: 1
+    - _OuterRadius: 0.146
+    - _PolarCoords: 0
+    - _Power: 1.12
+    - _RectHeight: 0
+    - _RectMask: 0
+    - _RectMaskCutoff: 0
+    - _RectSmoothness: 0
+    - _RectWidth: 0
+    - _SecondTex: 1
+    - _Smoothness: 0.417
+    - _SoftBlend: 0
+    - _VertexOffset: 0
+    - _VertexOffsetAmount: 0
+    m_Colors:
+    - _BurnCol: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _PanningSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondaryPanningSpeed: {r: 0.01, g: 0.05, b: 0, a: 0}
