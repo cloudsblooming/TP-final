@@ -450,7 +450,7 @@ Material:
     - _IndirectLightIntensity: 0.1
     - _Invisible: 0
     - _LightColorAttenuation: 0
-    - _LightMaxLimit: 1.67
+    - _LightMaxLimit: 0.93
     - _LightMinLimit: 0
     - _MToonVersion: 39
     - _Main2ndDissolveNoiseStrength: 0.1

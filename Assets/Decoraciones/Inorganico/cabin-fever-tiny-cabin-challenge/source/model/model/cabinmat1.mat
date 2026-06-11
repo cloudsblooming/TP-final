@@ -12,9 +12,11 @@ Material:
   m_ValidKeywords:
   - AUTO_KEY_VALUE
   - EFFECT_HUE_VARIATION
+  - _EMISSION
   - _GLOSSYREFLECTIONS_OFF
   - _NORMALMAP
   - _REQUIRE_UV2
+  - _SUNDISK_SIMPLE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -110,7 +112,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionBlendMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 51012bf61c74a394999a4d9b6b7c685f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionGradTex:
@@ -351,7 +353,7 @@ Material:
     - _EmissionGradSpeed: 1
     - _EmissionMainStrength: 0
     - _EmissionMap_UVMode: 0
-    - _EmissionParallaxDepth: 0
+    - _EmissionParallaxDepth: 100
     - _EmissionUseGrad: 0
     - _EnvRimBlur: 0.35
     - _EnvRimBorder: 3
@@ -612,7 +614,7 @@ Material:
     - _UseBumpMap: 1
     - _UseClippingCanceller: 0
     - _UseDither: 0
-    - _UseEmission: 0
+    - _UseEmission: 1
     - _UseEmission2nd: 0
     - _UseGlitter: 0
     - _UseMain2ndTex: 0
@@ -664,8 +666,8 @@ Material:
     - _Emission2ndColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission2ndMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionBlendMask_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionBlink: {r: 0, g: 0, b: 3.141593, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionBlink: {r: 0.112, g: 1, b: 3.1415932, a: 0}
+    - _EmissionColor: {r: 1, g: 0.91147983, b: 0, a: 1}
     - _EmissionMap_ScrollRotate: {r: 0, g: 0, b: 0, a: 0}
     - _GlitterAtras: {r: 1, g: 1, b: 0, a: 0}
     - _GlitterColor: {r: 1, g: 1, b: 1, a: 1}

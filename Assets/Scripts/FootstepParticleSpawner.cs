@@ -1,19 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using StarterAssets; // Asegura que encuentre el script dentro del namespace
 
 public class FootstepParticleSpawner : MonoBehaviour
 {
     [Header("Particle Settings")]
     [SerializeField] private GameObject footstepParticlePrefab;
     [Header("Compensación de Movimiento")]
-    [SerializeField] private float forwardOffset = 0.15f; // Ajusta esto para empujar la flor hacia adelante
+    [SerializeField] private float forwardOffset = 0.15f; 
     
     [Header("Area Restriction")]
     [SerializeField] private Collider allowedAreaCollider;
 
     [Header("Ground Detection")]
     [SerializeField] private LayerMask groundLayer;
+
+    // Referencia interna al controlador del jugador
+    private ThirdPersonController _playerController;
+
+    private void Start()
+    {
+        // Buscamos el componente ThirdPersonController en el objeto padre principal
+        _playerController = GetComponentInParent<ThirdPersonController>();
+    }
 
     public void SpawnFootstep(Transform footTransform)
     {
@@ -27,10 +37,7 @@ public class FootstepParticleSpawner : MonoBehaviour
 
         if (footstepParticlePrefab != null)
         {
-            // Conseguimos la dirección hacia adelante del personaje
             Vector3 forwardDirection = transform.forward;
-
-            // Calculamos el inicio del rayo sumándole un empuje hacia adelante
             Vector3 rayStart = footTransform.position + (forwardDirection * forwardOffset) + Vector3.up * 0.5f;
             
             if (Physics.Raycast(rayStart, Vector3.down, out RaycastHit hit, 2f, groundLayer))
@@ -39,5 +46,6 @@ public class FootstepParticleSpawner : MonoBehaviour
                 Instantiate(footstepParticlePrefab, spawnPosition, Quaternion.identity);
             }
         }
+
     }
 }

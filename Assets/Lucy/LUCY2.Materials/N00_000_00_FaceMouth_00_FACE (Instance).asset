@@ -450,7 +450,7 @@ Material:
     - _IndirectLightIntensity: 0.1
     - _Invisible: 0
     - _LightColorAttenuation: 0
-    - _LightMaxLimit: 1.67
+    - _LightMaxLimit: 0.93
     - _LightMinLimit: 0
     - _MToonVersion: 39
     - _Main2ndDissolveNoiseStrength: 0.1
@@ -615,7 +615,7 @@ Material:
     - _ShadowNormalStrength: 0
     - _ShadowPostAO: 1
     - _ShadowReceive: 1
-    - _ShadowStrength: 1
+    - _ShadowStrength: 0.489
     - _ShadowStrengthMaskLOD: 0
     - _ShiftBackfaceUV: 0
     - _Smoothness: 0.41615844
